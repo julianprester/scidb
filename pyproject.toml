@@ -7,10 +7,13 @@ authors = ["Julian Prester <hi@julianprester.com>"]
 repository = "https://github.com/julianprester/scidb"
 
 [[tool.poetry.packages]]
-include = "src"
+include = "scidb"
 
 [tool.poetry.dependencies]
 python = ">=3.9, <4"
+requests = "<2.32.0"
+tenacity = "^8.4.1"
+pymupdf = "^1.24.3"
 
 [tool.colrev]
 colrev_doc_description = "TODO"
