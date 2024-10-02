@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "scidb"
+name = "colrev-scidb"
 description = "TODO"
 version = "0.1.0"
 license = "MIT"
