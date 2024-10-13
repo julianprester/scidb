@@ -27,7 +27,7 @@ class ScidbPdfGet:
         pdf_get_operation: colrev.ops.pdf_get.PDFGet,
         settings: dict,
     ) -> None:
-        self.settings = self.settings_class.load_settings(data=settings)
+        self.settings = self.settings_class(**settings)
         self.review_manager = pdf_get_operation.review_manager
         self.pdf_get_operation = pdf_get_operation
 
