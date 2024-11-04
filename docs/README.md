@@ -3,12 +3,12 @@
 ## Installation
 
 ```bash
-colrev install scidb
+colrev install colrev-scidb
 ```
 
 ## Usage
 
-TODO
+colrev pdf-get --add colrev-scidb
 
 ## License
 
